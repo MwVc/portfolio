@@ -40,9 +40,9 @@ Visit the live version of the website <a href="https://example.com" target="_bla
 Feel free to reach out if you have any questions or if you'd like to collaborate.
 
 - Email: victormwadime@gmail.com
-- LinkedIn: [Victor Mwadime](https://www.linkedin.com/in/victor-mwadime-303b07215/){:target="\_blank"}
-- Twitter: [@VictorMwadime](https://x.com/VictorMwadime){:target="\_blank"}
+- LinkedIn: <a href="https://www.linkedin.com/in/victor-mwadime-303b07215/" target="_blank">Victor Mwadime</a>
+- Twitter: <a href="https://x.com/VictorMwadime" target="_blank">@VictorMwadime</a>
 
 ## Acknowledgments
 
-- Thanks to [The Odin Project](https://www.theodinproject.com/){:target="\_blank"} for their great curriculum.
+- Thanks to <a href="https://theodinproject.com" target="_blank">The Odin Project</a> for their great curriculum.
