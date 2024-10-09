@@ -33,7 +33,7 @@ Key sections of the website:
 
 ## Usage
 
-Visit the live version of the website [here](https://example.com){:target="\_blank"} to explore my projects and learn more about me.
+Visit the live version of the website <a href="https://example.com" target="_blank">here</a> to explore my projects and learn more about me.
 
 ## Contact
 
