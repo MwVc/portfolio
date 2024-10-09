@@ -33,16 +33,16 @@ Key sections of the website:
 
 ## Usage
 
-Visit the live version of the website [here](https://example.com) to explore my projects and learn more about me.
+Visit the live version of the website [here](https://example.com){:target="\_blank} to explore my projects and learn more about me.
 
 ## Contact
 
 Feel free to reach out if you have any questions or if you'd like to collaborate.
 
 - Email: victormwadime@gmail.com
-- LinkedIn: [Victor Mwadime](https://www.linkedin.com/in/victor-mwadime-303b07215/)
-- Twitter: [@VictorMwadime](https://x.com/VictorMwadime)
+- LinkedIn: [Victor Mwadime](https://www.linkedin.com/in/victor-mwadime-303b07215/){:target="\_blank}
+- Twitter: [@VictorMwadime](https://x.com/VictorMwadime){:target="\_blank}
 
 ## Acknowledgments
 
-- Thanks to [The Odin Project](https://www.theodinproject.com/) for their great curriculum.
+- Thanks to [The Odin Project](https://www.theodinproject.com/){:target="\_blank} for their great curriculum.
