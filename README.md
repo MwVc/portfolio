@@ -4,7 +4,12 @@ Welcome to my personal portfolio website! This site showcases my projects, skill
 
 ## Table of contents
 
-1.[About the Project](#about-the-project) 2.[Built with](#built-with) 3.[Features](#features) 4.[Usage](#usage) 5.[Contact](#contact) 6.[Acknowledgements](#acknowledgments)
+1.[About the Project](#about-the-project)
+2.[Built with](#built-with)
+3.[Features](#features)
+4.[Usage](#usage)
+5.[Contact](#contact)
+6.[Acknowledgements](#acknowledgments)
 
 ## About the Project
 
