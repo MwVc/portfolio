@@ -255,3 +255,55 @@ section {
 .btn-container {
   gap: 1rem;
 }
+
+/* ABOUT SECTION */
+#about {
+  position: relative;
+}
+
+.about-container {
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-container {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  width: auto;
+}
+
+.text-container {
+  width: 50rem;
+  text-align: justify;
+  font-size: large;
+  line-height: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: 2rem;
+  bottom: 2.5rem;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
