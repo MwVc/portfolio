@@ -54,7 +54,7 @@ function Profile() {
             <img src={linkedinIcon} alt="linkedin icon" />
           </a>
         </span>
-        <p>
+        <p className={styles.description}>
           With a passion fo developing modern react web apps for commercial
           business.
         </p>
