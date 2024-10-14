@@ -1,11 +1,23 @@
 import styles from "./ProfileStyles.module.css";
 import profileImage from "../../assets/profile-img.png";
-import themeIcon from "../../assets/sun.svg";
-import xIcon from "../../assets/twitter-light.svg";
-import githubIcon from "../../assets/github-light.svg";
-import linkedinIcon from "../../assets/linkedin-light.svg";
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
+import xLight from "../../assets/twitter-light.svg";
+import xDark from "../../assets/twitter-dark.svg";
+import githubLight from "../../assets/github-light.svg";
+import githubDark from "../../assets/github-dark.svg";
+import linkedinLight from "../../assets/linkedin-light.svg";
+import linkedinDark from "../../assets/linkedin-dark.svg";
+import { useTheme } from "../../common/ThemeContent";
 
 function Profile() {
+  const { theme, toggleTheme } = useTheme();
+  console.log(localStorage.getItem("theme"));
+
+  const themeIcon = theme === "light" ? sun : moon;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
+  const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
+  const xIcon = theme === "light" ? xLight : xDark;
   return (
     <section id="profile" className={styles.container}>
       <div className={styles.colorModeContainer}>
@@ -18,6 +30,7 @@ function Profile() {
           className={styles.colorMode}
           src={themeIcon}
           alt="color mode icon"
+          onClick={toggleTheme}
         />
       </div>
       <div className={styles.info}>
