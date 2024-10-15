@@ -4,7 +4,13 @@ import { useForm, ValidationError } from "@formspree/react";
 function Contact() {
   const [state, handleSubmit] = useForm("xrbggljj");
   console.log(state, handleSubmit);
-  if (state.succeeded) {
+  if (state.submitting) {
+    return (
+      <section id="contact" className={styles.container}>
+        <p>Submitting...</p>
+      </section>
+    );
+  } else if (state.succeeded)
     return (
       <section id="contact" className={styles.container}>
         <p>
@@ -13,7 +19,7 @@ function Contact() {
         </p>
       </section>
     );
-  }
+
   return (
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contact</h1>
