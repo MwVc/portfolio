@@ -66,6 +66,10 @@ p {
   font-weight: 300;
 }
 
+input {
+  font-family: "Roboto Mono", monospace;
+}
+
 .sectionTitle {
   margin-bottom: 30px;
 }
