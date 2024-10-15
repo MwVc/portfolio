@@ -32,6 +32,7 @@
 
 .colorModeContainer {
   position: relative;
+  top: 0;
 }
 
 .colorMode {
@@ -54,4 +55,12 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+}
+
+@media (width >= 800px) {
+  .container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
