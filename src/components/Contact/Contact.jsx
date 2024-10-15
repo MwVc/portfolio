@@ -29,7 +29,7 @@ function Contact() {
         method="POST"
       >
         <div className="formGroup">
-          <label htmlFor="name" hidden={true}>
+          <label htmlFor="name" hidden>
             Name
           </label>
           <input
@@ -42,7 +42,7 @@ function Contact() {
           <ValidationError prefix="Name" field="name" errors={state.errors} />
         </div>
         <div className="formGroup">
-          <label htmlFor="email" hidden={true}>
+          <label htmlFor="email" hidden>
             Email
           </label>
           <input
@@ -55,7 +55,7 @@ function Contact() {
           <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
         <div className="formGroup">
-          <label htmlFor="message" hidden={true}>
+          <label htmlFor="message" hidden>
             Message
           </label>
           <textarea
