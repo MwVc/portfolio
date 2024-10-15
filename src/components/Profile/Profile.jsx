@@ -1,5 +1,5 @@
 import styles from "./ProfileStyles.module.css";
-import profileImage from "../../assets/profile-img.png";
+// import profileImage from "../../assets/profile-img.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import xLight from "../../assets/twitter-light.svg";
@@ -12,7 +12,6 @@ import { useTheme } from "../../common/ThemeContent";
 
 function Profile() {
   const { theme, toggleTheme } = useTheme();
-  console.log(localStorage.getItem("theme"));
 
   const themeIcon = theme === "light" ? sun : moon;
   const githubIcon = theme === "light" ? githubLight : githubDark;
@@ -21,11 +20,11 @@ function Profile() {
   return (
     <section id="profile" className={styles.container}>
       <div className={styles.colorModeContainer}>
-        <img
+        {/* <img
           src={profileImage}
           alt="Profile Picture"
           className={styles.profileImage}
-        />
+        /> */}
         <img
           className={styles.colorMode}
           src={themeIcon}
