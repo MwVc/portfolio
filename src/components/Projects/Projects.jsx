@@ -1,8 +1,7 @@
 import styles from "./ProjectStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/hipsster.png";
-import fitLift from "../../assets/fitlift.png";
+import cvApp from "../../assets/cv-application.png";
+import memoryGame from "../../assets/memory-game.png";
+import weatherApp from "../../assets/weather-app.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -11,28 +10,22 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link={"#"}
-          title={"Viberr"}
-          description="A video streaming app"
+          src={cvApp}
+          link={"https://github.com/MwVc/cv-application"}
+          title={"CV-App"}
+          description="Create a resume"
         />
         <ProjectCard
-          src={freshBurger}
-          link={"#"}
-          title={"Fresh Burger"}
-          description="Hamburger Restaurant"
+          src={memoryGame}
+          link={"https://github.com/MwVc/memory-game"}
+          title={"Memory Game"}
+          description="Challenge your memory!"
         />
         <ProjectCard
-          src={hipsster}
-          link={"#"}
-          title={"Hipsster"}
-          description="Glasses shop"
-        />
-        <ProjectCard
-          src={fitLift}
-          link={"#"}
-          title={"Fitlift"}
-          description="Fitness App"
+          src={weatherApp}
+          link={"https://github.com/MwVc/Weather-App"}
+          title={"Weather App"}
+          description="Check local weather"
         />
       </div>
     </section>
