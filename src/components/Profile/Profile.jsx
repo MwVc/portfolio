@@ -54,8 +54,9 @@ function Profile() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion fo developing modern react web apps for commercial
-          business.
+          Enthustiatic web developer focused on modern React applications,
+          continuously expanding my knowledge in Node.js, PHP, and other
+          technologies.
         </p>
       </div>
     </section>
